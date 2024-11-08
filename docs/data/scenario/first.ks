@@ -1,20 +1,17 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="脱出"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+[bg storage=アジト（照明OFF）.jpg time=500]
 
-メロスは激怒した。[l][r]
+「うっっ...」[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+アジトで目を覚ますと閉じ込められていた[l][r]
 
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
+部屋を散策してアジトを脱出しよう[l][r]
 
 [link target=*tag_sleep] →寝る [endlink][r]
 [link target=*tag_run] →走る [endlink][r]
