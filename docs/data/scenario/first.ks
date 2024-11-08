@@ -13,18 +13,19 @@
 
 部屋を散策してアジトを脱出しよう[l][r]
 
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_sleep] →屋根裏へ [endlink][r]
+[link target=*23] →地下室へ [endlink][r]
+[link target=*tag_run] →扉へ [endlink][r]
 [s]
 
 *tag_sleep
 
 [cm]
 
-[bg storage=sleep.jpg time=500]
+[bg storage=34.jpg time=500]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+屋根裏部屋には何もなかった[l][r]
+入った瞬間センサーが反応し毒ガスが発生した[r]
 
 【 BAD END 】[l][cm]
 
@@ -35,9 +36,20 @@
 [bg storage=run.jpg time=500]
 
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
+普通に扉が開いた[l][r]
+メロスは黒い風のように走った。[r]
 
 【 GOOD END 】[l][cm]
+
+[jump target=*start]
+
+*23
+
+[bg storage=35.jpg time=500]
+
+[cm]
+地下室に入った瞬間トラップが発動し、重りにつぶされて死んだ[l][r]
+
+【 BAD END 】[l][cm]
 
 [jump target=*start]
